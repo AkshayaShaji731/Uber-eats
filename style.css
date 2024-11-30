@@ -2,7 +2,7 @@
 @font-face {
     font-family: "UberMove";
     font-display: fallback;
-    src: url("/asset/fonts/fonts/UberMove-400.woff2") format("woff2");
+    src: url("asset/fonts/fonts/UberMove-400.woff2") format("woff2");
     font-weight: 400;
   }
   @font-face {
@@ -26,8 +26,14 @@
   @font-face {
     font-family: "UberMoveText";
     font-display: fallback;
-    src: url("asset/fonts/fonts/UberMoveText-700.woff2") format("woff2");
+    src: url("asset/fonts/fonts/UberMoveText-500.woff2") format("woff2");
     font-weight: 500;
+  }
+  @font-face {
+    font-family: "UberMoveText";
+    font-display: fallback;
+    src: url("asset/fonts/fonts/UberMoveText-700.woff2") format("woff2");
+    font-weight: 700;
   }
 
   :root{
@@ -47,6 +53,7 @@ body{
     background-image: url("https://www.ubereats.com/_static/d8ceaf24a3164759.webp");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
     overflow: hidden;
 }
 /*header*/
@@ -119,14 +126,14 @@ body{
     font-size: 14px;
     font-family:"UberMoveText";
     align-items: center;
-    font-weight: 700px;
+    font-weight: 500;
     line-height: 16px;
     display: block;
     padding: 0.3px;
     padding-left: 0.3px;
     padding-top: 0.5px;
     padding-bottom: 0.3px;
-    padding-right: 0.3px;
+    padding-right: 0.2px;
     margin-top: 1px;
 }
 .main{
@@ -140,7 +147,7 @@ body{
     font-family: UberMove, sans-serif;
     font-size: 36px;
     letter-spacing: normal;
-    font-weight: 600px;
+    font-weight: 500;
     line-height: 44px;
     color: var(--primary);
     cursor:pointer;
@@ -148,13 +155,16 @@ body{
 /*banner end */
 
 /* home form*/
+
 .wrapper-form{
    width:100vh;
 }
+
 /* delivery  address start*/
+
 .input-container-1{
-    width:52.2vh;
-    height:10vh;
+    width:51.7vh;
+    height:9.8vh;
     background-color:var(--secondary);
     display: flex;
     position: absolute;
@@ -166,26 +176,27 @@ body{
 .input-container-1 img{
     width:24px;
     height:24px;
-    margin-top: 16.2px;
+    margin-top: 15px;
     margin-left: 15px;
 }
 .input-container-1 .text{
     color: #4B4B4B;
     font-size: 16px;
-    margin-left: 12px;
-    margin-top: 18.2px;
+    margin-left: 12.2px;
+    margin-top: 17px;
     font-family: "UberMoveText";
 }
 /*delivery adress end */
 
 /*delivery time start */
+
 .input-container-2{
-    width:52.2vh;
-    height:10vh;
+    width:52vh;
+    height:10.1vh;
     background-color:var(--secondary);
     display: flex;
     position: absolute;
-    top: 42.2vh;
+    top: 42vh;
     margin-left: 16px;
     padding: 0.8;
     margin-top: 0px;
@@ -194,42 +205,45 @@ body{
     width:24px;
     height:24px;
     margin-top: 16px;
-    margin-left: 17px;
+    margin-left: 16px;
 }
 .input-container-2 .text{
     color: var(--primary);
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 12px;
-    font-weight:700px;
+    font-weight:500;
     font-family:"UberMoveText";
-    margin-top: 18px;
+    margin-top:18px;
 }
 #drop{
-    margin-left:107px;
+    margin-left:113px;
 
 }
+
 /* end delivery time*/
-/*search button*/
+
+/*---------------search button----------*/
+
 .input-container-3{
     width:52vh;
-    height:10vh;
+    height:10.1vh;
     background-color:var(--primary);
     display: flex;
     position: absolute;
     top: 55vh;
     margin-left: 16px;
-    padding: 0.8;
     margin-top: 0px;
     border-radius: 8px;
 }
 .input-container-3 a{
     text-decoration: none;
     margin-top:16px;
-    margin-left: 80px;
+    margin-left: 94px;
     font-size: 18px;
     color: var(--secondary);
-    font-family:"UberMoveText" ;
-    font-weight: 1200px; 
+    font-family:"UberMoveText";
+    font-weight:500; 
+    line-height: 24px;
 }
 /*end search button*/
 /*signIn link*/
@@ -240,63 +254,79 @@ body{
     display: flex;
     position: absolute;
     top: 66vh;
-    margin-left: 17px;
-    margin-top: 20px;
+    margin-left: 16px;
+    margin-top: 18px;
 }
 .input-container-4 a{
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--primary);
     font-family:"UberMoveText" ;
-    font-weight: bold; 
+    font-weight:500; 
+    margin-top: 0.5px;
 }
 .input-container-4 p{
-    margin-top:0;
+    margin-top:1px;
     margin-right: 3px;
+    font-family:"UberMoveText" ;
+    font-weight: 500;
+    font-size: 14px;
+
 }
 /* end*/
 
+/*app*/
 .app{
 padding-top:14px;
 margin-top: 15px;
 display: flex;
 }
 .uber-logo{
-    margin-left: 12px;
-    margin-top: -3px;;
-    width:55%;
+    margin-left: 16px;
+    margin-top: -1px;;
+    width:25%;
     height:10vh;
 }
 .uber-logo img {
     margin-top: 30px;
-    height: 64px;
-    width: 64px;
+    height: 64.1px;
+    width: 64.1px;
 }
 .uber-content{
+    margin-top: -5px;
+    margin-left: 0px;
     font-size: 24px;
-    font-weight: bold;
-    font-family:"UberMove";    
+    font-weight:700;
+    width:65%;
+    font-family:"UberMove";
+    line-height: 28px;   
 }
 /*end of app*/
-.upper-applink{
-    width: 30%;
-    height:20vh;
+.uber-applink{
+    margin-top:9px;
+    width: 100%;
     display:flex;
-    background-color: #f0dbdb;
 }
 #applogo{
- width: 30%;
- margin-left: 70px;
+    width: 40%;
  display: flex;
+ float: left;
 }
 #applogo img{
-    width: 16px;
-    height: 16px;
+    margin-left:97px;
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
 }
  .text-app{
-    width: 70%;
+    margin-top: 0%;
+    margin-left:-4.5px;
+    width: 50%;
     color: var(--primary);
     display: flex;
+    font-family: "UberMoveText";
+    font-weight:500;
+    font-size:18px;
 }
 /* service*/
 .service{
@@ -304,39 +334,161 @@ display: flex;
     height: auto;
     display: flex;
     flex-flow: column;
+    margin-top: 65px;
 }
+/*---- service 1------*/
 .service-1{
-    margin: 7px;
-    width: 100%;
+    margin-left: 5px;
+    width: 98%;
     height: auto;
 }
 .service-1 img{
-    margin-left: 15px;
-    width: 280px;
-    height: 190px;
+    margin-top: 1px;
+    margin-left: 10.5px;
+    width: 288px;
+    height: 175x;
 }
 .service-1 p{
     font-size: 28px;
     margin-left: 15px;
-
+    font-family:"UberMove";
+    font-weight:700;
+    font-size:24px;
+    margin-top:5px;
+    margin-left: 11px;
+    margin-bottom: 10px;
 }
+.service-1 a{
+    font-family: "UberMoveText";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--primary);
+    margin-left: 11px;
+    margin-top:px;
+}
+/*------ service 2-------*/
 .service-2{
-    margin: 7px;
-    width: 100%;
+    margin-top:15px;
+    width: 90%;
     height: auto;
 }
 .service-2 img{
-    width: 280px;
-    height: 190px;
+    margin-left: 10px;
+    width: 290px;
+    height: 175x;
+}
+.service-2 p{
+    font-size: 28px;
+    margin-left: 7px;
+    font-family:"UberMove";
+    font-weight:700;
+    font-size:24px;
+    margin-top:1px;
+}
+.service-2 a{
+    margin-top: 0px;
+    font-family: "UberMoveText";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--primary);
     margin-left: 15px;
 }
+/*-----service 3-----*/
 .service-3{
-    margin: 7px;
-    width: 100%;
-    height:auto;
+    margin: 5px;
+    width: 90%;
+    height: auto;
 }
 .service-3 img{
-    width: 280px;
-    height: 190px;
+    margin-left: 10px;
+    width: 290px;
+    height: 175x;
+}
+.service-3 p{
+    font-size: 28px;
     margin-left: 15px;
+    font-family:"UberMove";
+    font-weight:700;
+    font-size:24px;
+    margin-top:1px;
+    margin-bottom: 5px;
+}
+.service-3 a{
+    margin-top: 0px;
+    font-family: "UberMoveText";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--primary);
+    margin-left: 15px;
+}
+/*------end------*/
+.map{
+    margin-top: 30px;
+}
+.map h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:"UberMove";
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.map img{
+    margin: 0;
+}
+.grid-container-city{
+    display: flex;
+    font-size:16px;
+    font-family:"UberMoveText";
+    font-weight:normal;
+    line-height:24px;
+    margin-left :10px;
+}
+.city-left{
+    font-size: 16px;
+    font-family: "UberMoveText";
+    font-weight:normal;
+    margin-left: 10px;
+}
+.city-right{
+    font-size: 16px;
+    font-family: "UberMoveText";
+    font-weight:normal;
+    margin-left: 70px;
+}
+.cities-links{
+    margin-top: 20px;
+    margin-left:15px;
+    color: var(--primary);
+}
+.cities-links a{
+    color: #000000;
+}
+.grid-container-country{
+    display: flex;
+    font-size:16px;
+    font-family:"UberMoveText";
+    font-weight:normal;
+    line-height:24px;
+    margin-left :10px;
+    margin-top: 20px;
+}
+.country-left{
+    font-size: 16px;
+    font-family: "UberMoveText";
+    font-weight:normal;
+    margin-left: 10px;
+}
+.country-right{
+    font-size: 16px;
+    font-family: "UberMoveText";
+    font-weight:normal;
+    margin-left: 20px;
+}
+#country-link{
+    margin-top: 20px;
+    margin-left:15px;
+    color: var(--primary);
+}
+#country-link a{
+    color: #000000;
 }
