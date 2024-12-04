@@ -620,10 +620,6 @@ footer{
     width: 16px;
     height: 16px;
 }
-/* .social-media a{
-    padding: 0 17px;
-    gap: 24px;
-} */
 .grid-footer-container-3{
     margin-top: 39px;
     display: flex;
@@ -713,6 +709,7 @@ footer{
     height: 56px;
     margin-left: 16px;
 }
+/* -------third page------ */
 .service-1 img{
     margin-top: -17px;
     margin-left: 10.5px;
@@ -723,6 +720,7 @@ footer{
     width: 343px;
     height: 191px;
 }
+/* --------fourth page-------- */
 .service-3 img{
     margin-left: 11px;
     width:343px;
@@ -733,16 +731,144 @@ footer{
     width: 366px;
     height: 380px;
 }
+/* ----------fifth page--------- */
 .grid-container-country{
     margin-top: 7px;
 }
+/* ----------six page---------- */
 .grid-footer-container{
-    margin-top: 50px;
+    margin-top: 48px;
 }
-/* .grid-footer-container-2{
-    margin-top: 42px;
-} */
-footer{
-    padding-bottom: 80px;
+.footer-text-1{
+    margin-bottom: -2px;
 }
+}
+
+/* -------end------- */
+
+/* -------mobile large -425----- */
+
+
+@media screen  and (min-width:425px) {
+
+    .space{
+        width: 41%;
+    }
+    .wrapper-banner{
+        margin-left: 2.5px;
+    }
+    .input-container-1{
+        width: 387px;
+        margin-left: 19px;
+    }
+    .input-container-1 .text{
+        margin-left: 11.5px;
+    }
+    .input-container-2{
+        width: 387px;
+        margin-left: 19px;
+    }
+    .input-container-2 .text{
+        margin-left: 11.6px;
+    }
+    #drop{
+        margin-left: 212px;
+    }
+    .input-container-3{
+        width: 387px;
+        margin-left: 19px;
+    }
+    .input-container-3 a{
+        margin-left: 143.2px;
+    }
+    .input-container-4{
+        margin-left: 18.7px;
+    }
+    
+    /* ---------Second page---------- */
+    .uber-content{
+        margin-top: -1px;
+        margin-left:-26px;
+        width:70%;
+    }
+    .uber-applink{
+        margin-top:-4.5px;
+        width: 393px;
+        height: 56px;
+        margin-left: 16px;
+    }
+    .service-1 img{
+        margin-top: -17px;
+        margin-left: 10.5px;
+        width: 393px;
+        height: 219px;
+    }
+    .service-2 img{
+        width: 393px;
+        height: 220px;
+    }/* -------third page------ */
+    .service-3 img{
+        margin-left: 11px;
+        width:393px;
+        height: 219px;
+    }
+    .map img{
+        margin-left: 3.2px;
+        width: 420px;
+        height: 380px;
+    }
+    /* ----------fifth page--------- */
+    .grid-container-country{
+        margin-top: 7px;
+    }
+    /* ----------six page---------- */
+    .grid-footer-container{
+        margin-top: 48px;
+    }
+    .footer-text-1{
+        margin-bottom: -2px;
+    }
+   
+}
+@media screen  and (min-width:768px){
+
+/* -------first page-------- */
+   .space{
+    width:100%
+   }
+   .header-head-2{
+        margin-left: 150px;
+   }
+    .main{
+        margin-left: 171.5px;
+    }   
+    /* ----------second page--------- */
+    .uber-content{
+        margin-top: 13px;
+        margin-left:-112px;
+        width:70%;
+    }
+    .uber-applink{
+        margin-top:10px;
+        width: 736px;
+        height: 56px;
+        margin-left: 16px;
+        padding-top: 10px;
+    }
+    .service-1 img{
+        margin-top: -17px;
+        margin-left: 10.5px;
+        width: 736px;
+        height: 411px;
+    }
+    .service-2 img{
+        width: 736px;
+        height: 411px;
+    }/* -------third page------ */
+    .service-3 img{
+        margin-left: 11px;
+        width:736px;
+        height: 412px;
+    }
+    
 }
