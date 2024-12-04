@@ -830,45 +830,4 @@ footer{
     }
    
 }
-@media screen  and (min-width:768px){
-
-/* -------first page-------- */
-   .space{
-    width:100%
-   }
-   .header-head-2{
-        margin-left: 150px;
-   }
-    .main{
-        margin-left: 171.5px;
-    }   
-    /* ----------second page--------- */
-    .uber-content{
-        margin-top: 13px;
-        margin-left:-112px;
-        width:70%;
-    }
-    .uber-applink{
-        margin-top:10px;
-        width: 736px;
-        height: 56px;
-        margin-left: 16px;
-        padding-top: 10px;
-    }
-    .service-1 img{
-        margin-top: -17px;
-        margin-left: 10.5px;
-        width: 736px;
-        height: 411px;
-    }
-    .service-2 img{
-        width: 736px;
-        height: 411px;
-    }/* -------third page------ */
-    .service-3 img{
-        margin-left: 11px;
-        width:736px;
-        height: 412px;
-    }
-    
-}
+@
